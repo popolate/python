@@ -1,0 +1,5 @@
+c1=int(input("ingrese nota certamen 1: "))
+c2=int(input("ingrese nota certamen 2: "))
+nl=int(input("ingrese nota del laboratorio: "))
+c3=-c1-c2+3*((-0.3*nl+60)//0.7)
+print("necesita nota", c3,"en el certamen 3")
